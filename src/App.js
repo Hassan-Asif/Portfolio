@@ -4,9 +4,16 @@ import { motion } from "framer-motion";
 
 export default function App() {
   return (
-    <div className="bg-gradient-to-r from-gray-900 via-black to-indigo-950 text-white min-h-screen font-sans overflow-hidden">
+    <div className="relative bg-gradient-to-br from-gray-900 via-indigo-950 to-black text-white min-h-screen font-sans overflow-hidden">
+      {/* Animated Background Glow */}
+      <div className="absolute inset-0 -z-10">
+        <div className="absolute top-20 left-1/3 w-72 h-72 bg-purple-600 rounded-full mix-blend-screen filter blur-3xl opacity-30 animate-pulse"></div>
+        <div className="absolute bottom-20 right-1/4 w-96 h-96 bg-indigo-500 rounded-full mix-blend-screen filter blur-3xl opacity-30 animate-pulse"></div>
+        <div className="absolute top-1/2 left-10 w-60 h-60 bg-pink-500 rounded-full mix-blend-screen filter blur-3xl opacity-20 animate-pulse"></div>
+      </div>
+
       {/* Hero Section */}
-      <header className="relative text-center py-32 px-6 overflow-hidden">
+      <header className="relative text-center py-32 px-6">
         <motion.h1
           initial={{ opacity: 0, y: -50 }}
           animate={{ opacity: 1, y: 0 }}
@@ -66,7 +73,7 @@ export default function App() {
       </section>
 
       {/* Skills Section */}
-      <section className="bg-gradient-to-br from-indigo-950 via-black to-gray-900 py-20">
+      <section className="py-20">
         <motion.div
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -143,7 +150,7 @@ export default function App() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-black/80 text-center py-8 text-sm text-gray-500 border-t border-indigo-500">
+      <footer className="text-center py-8 text-sm text-gray-500 border-t border-indigo-500">
         &copy; {new Date().getFullYear()} Hassan Asif — All Rights Reserved.
       </footer>
     </div>
