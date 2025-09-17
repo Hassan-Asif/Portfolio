@@ -76,7 +76,7 @@ export default function App() {
         >
           <h2 className="text-5xl font-bold text-center mb-12 text-indigo-400">Skills</h2>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 text-center">
-            {["React", "Django", "Tailwind", "HTML/CSS", "Wix", "Figma", "Firebase", "JavaScript"].map(
+            {["React", "Django", "Tailwind", "HTML/CSS", "Wix", "Figma", "Vue", "JavaScript"].map(
               (skill, i) => (
                 <motion.div
                   key={skill}
