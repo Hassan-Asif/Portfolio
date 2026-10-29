@@ -20,31 +20,31 @@ import {
 const profile = {
   name: "Hassan Asif",
   role: "Frontend & Full-Stack Developer",
-  email: "your-email@example.com",
+  email: "hassanasifjabbar@gmail.com",
   github: "https://github.com/Hassan-Asif",
   linkedin: "https://www.linkedin.com/in/hassan-asif-3a0349260/",
 };
 
+
 const projects = [
   {
-    number: "01",
-    name: "NeonLEDs",
-    category: "E-commerce",
-    description:
-      "A modern automotive accessories storefront built to make product discovery, vehicle compatibility, and order management simpler.",
-    stack: ["Vue.js", "Tailwind CSS", "Firebase"],
-    accent: "from-red-500/20 via-zinc-900 to-zinc-950",
-    visual: "store",
-    status: "Featured project",
-    github: "",
-    live: "",
-  },
+  title: "Email Reply Automation",
+  category: "AI & Workflow Automation",
+  description:
+    "An AI-powered tool that generates professional email replies in seconds, helping users save time and respond more efficiently.",
+  stack: ["React", "JavaScript", "AI Integration", "Tailwind CSS"],
+  accent: "blue",
+  visual: "email",
+  status: "AI Automation",
+  github: "",
+  live: "",
+},
   {
     number: "02",
     name: "Wrap N Roll",
     category: "Business platform",
     description:
-      "A product-focused packaging storefront with configurable product options, delivery calculations, checkout, and Firebase order management.",
+      "A packaging products storefront featuring configurable product options, delivery calculations, checkout, and Firebase-powered order management.",
     stack: ["Vue.js", "Firebase", "Tailwind CSS"],
     accent: "from-blue-500/20 via-zinc-900 to-zinc-950",
     visual: "orders",
@@ -54,18 +54,19 @@ const projects = [
   },
   {
     number: "03",
-    name: "AqilLabs",
-    category: "Automation & systems",
+    name: "SANK Gaming",
+    category: "Gaming & rentals",
     description:
-      "A business-focused approach to internal dashboards, inventory workflows, and tools that reduce repetitive manual work.",
-    stack: ["React", "Python", "Firebase"],
-    accent: "from-emerald-500/20 via-zinc-900 to-zinc-950",
-    visual: "system",
-    status: "Product concept",
+      "A game-rental website concept where gamers can explore available titles, discover rental options, and find games to enjoy without purchasing every title outright.",
+    stack: ["React", "Tailwind CSS", "JavaScript"],
+    accent: "from-violet-500/20 via-zinc-900 to-zinc-950",
+    visual: "gaming",
+    status: "Web application",
     github: "",
     live: "",
   },
 ];
+
 
 const skillGroups = [
   {
